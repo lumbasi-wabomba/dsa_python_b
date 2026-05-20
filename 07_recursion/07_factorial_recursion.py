@@ -7,6 +7,7 @@ def factorial(n):
 res = factorial(6)
 print(res)
 
+# expansion
 # factorial(5)
 # = 5 * factorial(4)
 # = 5 * (4 * factorial(3))
@@ -15,6 +16,7 @@ print(res)
 # = 5 * (4 * (3 * (2 * (1 * factorial(0)))))
 # = 5 * (4 * (3 * (2 * (1 * 1))))
 
+# collapse
 # factorial(0) = 1
 # factorial(1) = 1 * 1 = 1
 # factorial(2) = 2 * 1 = 2
